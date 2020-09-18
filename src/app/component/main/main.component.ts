@@ -34,7 +34,7 @@ export class MainComponent implements OnInit {
   }
 
   sendMessage(msg: string) {
-    this.messagingService.sendNotification('Test', localStorage.getItem('friendToken'), localStorage.getItem('username'));
+    this.messagingService.sendNotification(msg, localStorage.getItem('friendToken'), localStorage.getItem('username'));
     this.openSnackBar();
   }
 
