@@ -1,0 +1,59 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.setup-page {
+  background-color: #FE6847;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.setup-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  min-width: 300px;
+  padding: 20px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.33);
+  border-radius: 50%;
+}
+
+.setup-form input {
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 13px;
+}
+
+label {
+  margin-bottom: 7px;
+  color: white;
+  font-weight: bolder;
+}
+
+.text-input {
+  border: 0;
+}
+
+.save-btn {
+  margin-top: 10px;
+  background-color: #FBB13C;
+  border: 1px solid #925a26;
+  font-weight: bolder;
+}
+
+.title-setup {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.copy-token {
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+}

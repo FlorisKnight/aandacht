@@ -1,1 +1,46 @@
-<p>main works!</p>
+<div class="title-bar">
+  <h1 class="title" (click)="setup()">Aandacht!</h1>
+</div>
+<div class="buttons">
+  <div (click)="sendMessage('Aandacht!')" class="msg-button">
+    <div class="dot"></div>
+    <p>Aandacht!</p></div>
+  <div (click)="sendMessage('I want hugs!')" class="msg-button">
+    <div class="dot"></div>
+    <p>I want hugs!</p>
+  </div>
+  <div (click)="sendMessage('I want kisses!')" class="msg-button">
+    <div class="dot"></div>
+    <p>I want kisses!</p>
+  </div>
+  <div (click)="sendMessage('Cuddles?')" class="msg-button">
+    <div class="dot"></div>
+    <p>Cuddles?</p>
+  </div>
+  <div (click)="sendMessage('I love you!')" class="msg-button">
+    <div class="dot"></div>
+    <p>I love you!</p>
+  </div>
+  <div (click)="sendMessage('I\'m sad :(')" class="msg-button">
+    <div class="dot"></div>
+    <p>I'm sad :(</p>
+  </div>
+  <div (click)="sendMessage('Food?')" class="msg-button">
+    <div class="dot"></div>
+    <p>Food?</p>
+  </div>
+  <div (click)="sendMessage('Can I has some coochie?')" class="msg-button">
+    <div class="dot"></div>
+    <p>Can I has some coochie?</p>
+  </div>
+  <div (click)="sendMessage('Can I has some of that dick?')" class="msg-button">
+    <div class="dot"></div>
+    <p>Can I has some of that dick?</p>
+  </div>
+  <div (click)="sendMessage('I want SMASH!')" class="msg-button">
+    <div class="dot"></div>
+    <p>I want SMASH!</p>
+  </div>
+  <p (click)="copyTokenToClipBoard()" class="copy-token">Click to copy token to clipboard.</p>
+</div>
+

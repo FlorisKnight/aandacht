@@ -1,1 +1,11 @@
-<p>setup works!</p>
+<div class="setup-page">
+  <div class="setup-form">
+    <h1 class="title-setup">Setup</h1>
+    <label>Your name:</label>
+    <input type="text" [(ngModel)]="username" placeholder="Enter username here..." class="text-input">
+    <label>Friend Token</label>
+    <input type="text" [(ngModel)]="friendToken" placeholder="Enter friend token..." class="text-input">
+    <input type="button" value="Save" (click)="save()" class="save-btn">
+    <p (click)="copyTokenToClipBoard()" class="copy-token">Click to copy token to clipboard.</p>
+  </div>
+</div>
