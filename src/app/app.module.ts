@@ -8,7 +8,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireModule } from '@angular/fire';
 import { MessagingService } from './service/messaging.service';
 import { environment } from '../environments/environment';
-import { AsyncPipe } from '../../node_modules/@angular/common';
+import { AsyncPipe } from '@angular/common';
 import { MainComponent } from './component/main/main.component';
 import {FormsModule} from '@angular/forms';
 import {MatIconModule, MatSidenavModule, MatSnackBarModule, MatToolbarModule} from '@angular/material';
@@ -37,7 +37,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     MatSidenavModule,
     RouterModule,
     MatSnackBarModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [MessagingService, AsyncPipe],
   bootstrap: [AppComponent]
